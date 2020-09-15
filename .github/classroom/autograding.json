@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Basic Tests",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testEasy",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Harder Tests",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testHard",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
